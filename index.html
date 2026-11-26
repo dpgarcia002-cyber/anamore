@@ -7,6 +7,7 @@
 <meta name="author" content="ANAMORE">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
 <script src="https://unpkg.com/lucide@latest" defer></script>
 <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js"></script>
 <title>Anamore | Galletas estilo New York</title>
@@ -66,7 +67,11 @@
 <p class="eyebrow">Nuestros productos</p>
 <h2 class="section-title">Tu nueva galleta favorita</h2>
 <p class="muted-note">En ANAMORE creemos que los pequeños momentos saben mejor con algo dulce. 💗</p>
+
+
 </div>
+
+
 
 <div class="products-grid">
 
@@ -195,6 +200,68 @@
   </div>
 </section>
 
+<!--DIRECCIÓN Y CONTACTO-->
+<section id="contacto" class="container contact-section">
+      <div>
+        <p class="eyebrow">Contacto</p>
+        <h2 class="section-title">Estamos ubicados en</h2>
+        <p class="muted-note">Ubicación y contacto</p>
+
+
+        <ul class="contact-list">
+
+          <li> <a href="https://maps.app.goo.gl/qfAjDbuTrJHjJt1x5" target="_blank" rel="noopener noreferrer">
+            <i data-lucide="map-pin" class="contact-icon">
+
+            </i>Bosques de Chapultepec - CDMX</li></a>
+          
+          <li><i data-lucide="phone" class="contact-icon"></i> (000) 000 0000</li>
+          <li><i data-lucide="mail" class="contact-icon"></i> dp.garcia002@ebc.edu.mx</li>
+          <li><i data-lucide="clock" class="contact-icon"></i> Lunes a viernes de 8am a 8 pm </li>
+        </ul>
+
+
+        <a
+          href="https://wa.me/5519383117"
+          target="_blank"
+          rel="noopener noreferrer"
+          class="whatsapp-btn"
+        >
+          <i data-lucide="message-circle" class="icon-sm"></i> WhatsApp
+        </a>
+        <p class="footnote">+52 5519383117</p>
+      </div>
+<!--FORMULARIO DE CONTACTO, DUDAS, SUGERENCIAS, ETC -->
+ <form id="contact-form" class="contact-form" novalidate>
+        <div class="form-group">
+          <label for="name">Nombre</label>
+          <input id="name" name="name" type="text" maxlength="100" />
+          <p id="error-name" class="error-text" aria-live="polite"></p>
+        </div>
+
+
+        <div class="form-group">
+          <label for="email">Correo electrónico</label>
+          <input id="email" name="email" type="email" maxlength="255" />
+          <p id="error-email" class="error-text" aria-live="polite"></p>
+        </div>
+
+
+        <div class="form-group">
+          <label for="message">Mensaje</label>
+          <textarea id="message" name="message" rows="5" maxlength="1000"></textarea>
+          <p id="error-message" class="error-text" aria-live="polite"></p>
+        </div>
+
+
+        <button type="submit" class="btn-formulario">Enviar mensaje</button>
+
+
+        <p id="form-status" class="form-status" role="status" hidden>
+          ¡Formulario eviado con éxito! 
+        </p>
+      </form>
+    </section>
 
 
 </main> <!--Fin del contenido principal de la pagina-->
@@ -212,8 +279,9 @@
 <a href="#contacto">Contacto</a>
 </nav>
 <div class="social-links">
-<a href="#" aria-label="Instagram"><i data-lucide="instagram"></i></a>
-<a href="#" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+<a href="https://www.instagram.com/winterblo?fqnt=MTRrYWU4YjIxajF0Zw%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+<a href="https://www.facebook.com/share/1KY1wpReox/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="fa-brands fa-facebook"></i></a>
+<a href="https://www.tiktok.com/@taemyluuuv?_r=1&_t=ZS-9BjGFWBvSSr" target="_blank" rel="noopener noreferrer"aria-label="tiktok"><i class="fa-brands fa-tiktok"></i></a>
 </div>
 </div>
 <p class="copyright">© <span id="current-year"></span> ANAMORE. Todos los derechos reservados.</p>
